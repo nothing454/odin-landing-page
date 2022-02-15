@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0; 
+} 
+
+body {
+    font-family: roboto;
+    margin: 0 190px;
+}
+
+.header {
+    display: flex;
+    color: #f9faf8;
+    flex-direction: column;
+    padding: 16px 180px;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.ul-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;   
+}
+
+.main-title {
+    display: flex;
+    margin: 80px 0 80px; 
+    gap: 40px;  
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    display: block;
+    background: #3882f6;
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: #3882f6;
+    margin-top: 40px;
+    
+}
+
+img {
+    width: 350px;
+    flex-shrink: 0;
+}
+
+.info {
+    text-align: center;
+    margin: 50px 0
+}
+
+.para-info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+    
+.main-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.main-info div {
+    width: 150px;
+} 
+
+.main-info img {
+    width: 150px;
+    height: 150px;
+}
+
+.quotes {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 100px 300px;
+
+}
+
+.quotes .text {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quotes .author {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.bottom {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-box {
+    width: 700px;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.para-box {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.sign-up {
+    border: #e5e7eb solid 2px;
+    font-size: 18px;
+}
+
+.footer {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy {
+    color: #e5e7eb;    
+}
